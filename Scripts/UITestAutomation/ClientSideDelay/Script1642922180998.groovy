@@ -19,9 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://uitestingplayground.com/ajax')
+WebUI.navigateToUrl('http://uitestingplayground.com/clientdelay')
 
-WebUI.click(findTestObject('Object Repository/UITestingPlayGround/Page_AJAX Data/button_Button Triggering AJAX Request'))
+WebUI.click(findTestObject('Object Repository/UITestingPlayGround/Page_Client Side Delay/button_Button Triggering Client Side Logic'))
 
-WebUI.delay(4)
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/UITestingPlayGround/Page_Client Side Delay/p_Data calculated on the client side'))
 
