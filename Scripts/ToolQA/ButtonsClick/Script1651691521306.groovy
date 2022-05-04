@@ -19,19 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demoqa.com/text-box')
+WebUI.navigateToUrl('https://demoqa.com/buttons')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/ToolQA/Button/Page_ToolsQA/button_Double Click Me'))
 
-WebUI.setText(findTestObject('Object Repository/ToolQA/Page_ToolsQA/input_Full Name_userName'), 'HtooEaindra')
+WebUI.click(findTestObject('Object Repository/ToolQA/Button/Page_ToolsQA/button_Right Click Me'))
 
-WebUI.setText(findTestObject('Object Repository/ToolQA/Page_ToolsQA/input_Email_userEmail'), 'htooeaindra123@gmail.com')
-
-WebUI.setText(findTestObject('Object Repository/ToolQA/Page_ToolsQA/textarea_Current Address_currentAddress'), 'Mandalay')
-
-WebUI.setText(findTestObject('Object Repository/ToolQA/Page_ToolsQA/textarea_Permanent Address_permanentAddress'), 'Mandalay')
-
-WebUI.scrollToPosition(5000, 5000)
-
-WebUI.click(findTestObject('Object Repository/ToolQA/Page_ToolsQA/button_Submit'))
+WebUI.click(findTestObject('Object Repository/ToolQA/Button/Page_ToolsQA/button_Click Me'))
 

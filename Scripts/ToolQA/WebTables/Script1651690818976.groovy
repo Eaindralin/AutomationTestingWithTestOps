@@ -19,19 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demoqa.com/text-box')
+WebUI.navigateToUrl('https://demoqa.com/webtables')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/ToolQA/WebTables/Page_ToolsQA/button_Add'))
 
-WebUI.setText(findTestObject('Object Repository/ToolQA/Page_ToolsQA/input_Full Name_userName'), 'HtooEaindra')
+WebUI.setText(findTestObject('Object Repository/ToolQA/WebTables/Page_ToolsQA/input_First Name_firstName'), 'Htoo')
 
-WebUI.setText(findTestObject('Object Repository/ToolQA/Page_ToolsQA/input_Email_userEmail'), 'htooeaindra123@gmail.com')
+WebUI.setText(findTestObject('Object Repository/ToolQA/WebTables/Page_ToolsQA/input_Last Name_lastName'), 'Eaindra')
 
-WebUI.setText(findTestObject('Object Repository/ToolQA/Page_ToolsQA/textarea_Current Address_currentAddress'), 'Mandalay')
+WebUI.click(findTestObject('Object Repository/ToolQA/WebTables/Page_ToolsQA/input_Email_userEmail'))
 
-WebUI.setText(findTestObject('Object Repository/ToolQA/Page_ToolsQA/textarea_Permanent Address_permanentAddress'), 'Mandalay')
+WebUI.setText(findTestObject('Object Repository/ToolQA/WebTables/Page_ToolsQA/input_Email_userEmail'), 'htooeaindralin123@gmaiil.com')
 
-WebUI.scrollToPosition(5000, 5000)
+WebUI.setText(findTestObject('Object Repository/ToolQA/WebTables/Page_ToolsQA/input_Age_age'), '23')
 
-WebUI.click(findTestObject('Object Repository/ToolQA/Page_ToolsQA/button_Submit'))
+WebUI.setText(findTestObject('Object Repository/ToolQA/WebTables/Page_ToolsQA/input_Salary_salary'), '50000')
+
+WebUI.setText(findTestObject('Object Repository/ToolQA/WebTables/Page_ToolsQA/input_Department_department'), 'QCST')
+
+WebUI.click(findTestObject('Object Repository/ToolQA/WebTables/Page_ToolsQA/button_Submit'))
+
+WebUI.click(findTestObject('Object Repository/ToolQA/WebTables/Page_ToolsQA/svg'))
+
+WebUI.click(findTestObject('Object Repository/ToolQA/WebTables/Page_ToolsQA/button_Submit'))
 

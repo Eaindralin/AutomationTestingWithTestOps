@@ -23,4 +23,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/ToolQA/CheckBox</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4998a3a0-438b-4577-aea7-46cd12a5bb26</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ToolQA/RadioButton</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a8c5f7fd-bf7c-4bb5-8dd5-549450e5900b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ToolQA/WebTables</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
