@@ -66,15 +66,15 @@
       <testCaseId>Test Cases/ToolQA/DynamicProperties</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>21d4addd-e7d8-4627-b388-dffdc9d46c81</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ToolQA/PractiseForms</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>07343e3d-8532-4232-980f-e9487972e8d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ToolQA/BrowsersWindows</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>abb69a14-44ab-45d9-87d1-f2281ecf2685</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ToolQA/Alerts</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
